@@ -20,6 +20,7 @@ struct node
     char address[150];
     struct node *next;
 };
+//struct node 这是一个非常特殊的数据类型，在尚未定义好，就去使用。
 
 //函数声明
 struct node *CreatNode(struct node *);
